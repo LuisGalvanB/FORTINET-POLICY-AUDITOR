@@ -1,0 +1,4 @@
+device,vdom,policy_id,sequence,name,srcintf,dstintf,srcaddr,dstaddr,service,schedule,action,status,comments
+FGT-LAB,root,1,1,Deny corporate,port1,port2,10.0.0.0/8,192.0.2.10/32,TCP/443,always,deny,enable,
+FGT-LAB,root,2,2,Allow host,port1,port2,10.1.1.5/32,192.0.2.10/32,TCP/443,always,accept,enable,
+FGT-LAB,root,3,3,Duplicate host,port1,port2,10.1.1.5/32,192.0.2.10/32,TCP/443,always,accept,enable,
